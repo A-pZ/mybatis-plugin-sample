@@ -1,0 +1,10 @@
+mybatis:
+  config-location: classpath:mybatis-config.xml
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: secret
+    url: jdbc:mysql://localhost:3306/test?allowPublicKeyRetrieval=true&useSSL=false
+
